@@ -80,7 +80,8 @@ a img {
 }
 
 .some-photos {
-  margin-top: 50px;
+  padding-top: 50px;
+  background-color: rgb(250, 250, 250);
 }
 
 .latest-stories {
@@ -104,10 +105,9 @@ a img {
 }
 
 .blockquote {
-  margin: 100px 200px 100px 200px;
-  padding: 30px;
+  margin: 0;
+  padding: 100px 200px 100px 200px;
   font-weight: 900;
-  border-left: 1px solid rgb(221, 216, 221);
 }
 
 .main-rule {
@@ -141,6 +141,15 @@ a img {
 }
 .gallary img {
   margin-top: 20px;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 300px;
+}
+.ask-me {
+  text-align: center;
+  background-image: url('../img/footer-forest.png');
+}
+
+.ask-me-form {
+  margin-top: 80px;
+  background-color: white;
 }
