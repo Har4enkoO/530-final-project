@@ -61,6 +61,7 @@ a img {
   font-weight: 900;
 }
 .results {
+  margin-top: 40px;
   background-color: black;
   color: white;
 }
@@ -83,6 +84,7 @@ a img {
 }
 
 .latest-stories {
+  padding-bottom: 150px;
   background-image: url('../img/dark-forest.jpg');
   text-align: center;
   color: white;
@@ -113,6 +115,7 @@ a img {
 }
 
 .useful-tips {
+  padding-top: 40px;
   text-align: center;
   color: white;
   background-color: rgb(34, 41, 47);
@@ -120,8 +123,24 @@ a img {
 
 .follow-me {
   background-image: url('../img/forest.jpg');
+  background-size: cover;
+  min-height: 500px;
   text-align: center;
 }
 .follow-me .result .count {
   color: white;
+}
+
+.thailand-photos {
+  display: none;
+}
+.gallary {
+  background-color: rgb(244, 239, 233);
+  padding-top: 40px;
+  text-align: center;
+}
+.gallary img {
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
 }
