@@ -6,9 +6,9 @@ europa.addEventListener('click', showEuropaPhotos);
 function showEuropaPhotos() {
   thailandPhotos.style.display = 'none';
   europaPhotos.style.display = 'flex';
-};
+}
 thailand.addEventListener('click', showThailandPhotos);
 function showThailandPhotos() {
   europaPhotos.style.display = 'none';
   thailandPhotos.style.display = 'flex';
-};
+}
